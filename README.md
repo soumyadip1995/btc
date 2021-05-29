@@ -1,5 +1,19 @@
 ## Implementation from scratch
 
+
+## Sha 256 and sha 512
+
+If the karpathy/cryptos works for sha256 then btc works for sha512. sha512 is usually faster on 64-bit computers. The implementation of sha512 is from scratch withput using any dependencies. It follows the NIST.FIPS.180 pdf. Pass in one file one to return the checksum then verify the file hash.
+
+```
+$ echo "abc" > testfile.txt
+$ python -m sha512 testfile.txt
+d44797ef9a7e277f157050239174c23d3f7ffee20f733bacfc57ed79714a25666e52e060b117511ecdc0d70ceabeaeab0bd859384a918224781ba39c4b16deff
+$ python -m sha256 testfile.txt
+13b310b4f14c731d827b9d0c24f8e48da9d03c466ec79e1e9b6650c544a4feca
+
+```
+
 ## Goals
 
 - Implement from programming bitcoin.
