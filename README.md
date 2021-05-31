@@ -3,7 +3,7 @@
 
 ## Sha 256 and sha 512
 
-If the karpathy/cryptos works for sha256 then btc works for both sha256 and sha512. sha512 is usually faster on 64-bit computers. The implementation of sha512 is from scratch withput using any dependencies. It follows the NIST.FIPS.180 pdf. Pass in one file one to return the checksum then verify the file hash.
+If the karpathy/cryptos works for sha256 then btc works for both sha256 and sha512. Sha512 is usually faster on 64-bit computers. The implementation of sha512 is from scratch withput using any dependencies. It follows the NIST.FIPS.180 pdf. Pass in one file one to return the checksum then verify the file hash.
 
 ```
 $ echo "abc" > testfile.txt
