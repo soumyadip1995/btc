@@ -1,3 +1,5 @@
+#inspired by the karpathy/cryptos code
+
 """
 n = Number of bits to be rotated or shifted when a word is operated upon.
 w = word size"""
